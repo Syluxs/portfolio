@@ -1,0 +1,302 @@
+body{
+    font-family: sans-serif;
+    padding: 0; 
+    margin: 0;
+    background-color: rgb(240, 240, 240);
+}
+ul{padding: 0;
+margin: 0;
+}
+li{
+    list-style-type: none;
+}
+h2{text-transform: uppercase;
+text-align: center;
+padding-top: 30px;
+font-size: 2em;
+}
+
+a{text-decoration: none;
+color: black;
+}
+/* ******************NAVBAR**************** */
+nav{
+  z-index: 1;
+  overflow: hidden;
+  background-image:radial-gradient(300px circle at 73% 60%, rgba(25, 25, 112, .8), rgba(25, 25, 112, 0)),
+  radial-gradient(280px circle at 52% 70%, rgba(48, 48, 128, .95), rgba(48, 48, 128, 0)),
+  radial-gradient(421px circle at 82% 82%, rgba(240, 240, 240, .95), rgba(240, 240, 240, 0)),
+  radial-gradient(450px circle at 42% 65%, rgba(106, 0, 92, 1), rgba(106, 0, 92, 0)),
+  radial-gradient(480px circle at 40% 75%, rgba(106, 0, 92, 1), rgba(106, 0, 92, 0)),
+  radial-gradient(480px circle at 38% 95%, rgba(106, 0, 92, 1), rgba(106, 0, 92, 0)),
+  radial-gradient(435px circle at 65% 73%, rgba(221, 156, 119, 1), rgba(221, 156, 119, 0)),
+  radial-gradient(850px circle at right top, rgba(75, 0, 53, 1), rgba(75, 0, 53, .9), rgba(169, 64, 97, .4), rgba(169, 64, 97, 0)),
+  radial-gradient(422px circle at right 75%, rgba(0, 56, 79, .95), rgba(0, 56, 79, 0)),
+  radial-gradient(350px circle at right 50%, rgba(153, 56, 60, 1), rgba(153, 56, 60, 0)),
+  radial-gradient(300px circle at right bottom, rgba(120, 56, 128, 1),  rgba(120, 56, 128, 0)),
+  linear-gradient(to right bottom, rgba(18, 0, 25, 0), rgba(18, 0, 25, 0.95) 40%, rgba(18, 0, 25, 0.5) 60%, rgba(18, 0, 25, 0)),
+  linear-gradient(to right, #1c062d, #b8205d); ;
+  position: fixed;
+  width: 100%;
+  opacity: 0.9;
+}
+
+header li{
+  float: right;
+  font-size: 1,2em;
+}
+header li a {
+  text-decoration: none;
+display: block;
+text-align: center;
+padding: 18px 12px;
+
+}
+
+header li p {
+  margin-left: 1rem;
+}
+#logo{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  float: left;
+  color: rgb(240, 240, 240);
+  box-shadow: 10px;
+}
+
+#Menu{
+  color:  rgb(240, 240, 240);
+}
+/* *****************image principale************* */
+
+#imagePrincipale {
+  padding-top: 60px;
+  background: url(/img/516089.png) no-repeat fixed 50% 50%;
+  background-size: cover;
+  height: 799px;
+}
+h1{
+  font-family: 'sans-serif';
+  text-align: center;
+  color:rgb(240, 240, 240);
+  font-size: 6em;
+  margin-top: 110px;
+  text-shadow: 1px 3px 2px black;
+}
+#premierTrait {
+  height: 1px;
+  width: 50%;
+  margin: -3px auto;
+  background-color:rgb(240, 240, 240);
+  box-shadow: 1px 3px 2px black;
+}
+h3{
+  text-align: center;
+  color:rgb(240, 240, 240);
+  font-size: 3em;
+  font-family: sans-serif;
+  text-shadow: 1px 3px 2px black;
+}
+/* preésentation */
+
+#presentation{
+  background-color: rgba(192, 192, 192,);
+  padding: 10px 0px 100px 0px;
+}
+#textIntro {
+padding: 0px 20% ;
+text-align: center;
+}
+#explications {
+  display: flex;
+  justify-content: center;
+  padding: 20px 15%;
+}
+.images-explication{
+  height: auto;
+  width: auto;
+  text-align: center;
+  font-size: 1em;
+margin: 10px;
+font-weight: 200;
+border-radius: 5px;
+box-shadow: 17px 17px 18px 3px rgba(0,0,0,0.65);
+}
+
+.images-explication img{
+  border-radius: 50%;
+}
+.images-explication:hover{
+  opacity: 0.5;
+  transform: scale(1.05);
+  transition: 0.8s ease-in-out;
+} 
+#icons{
+  margin: 3% 25% 0 25%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#icons :hover{
+  transform: scale(1.1);
+  transition: 0.8s ease-in-out;
+}
+
+
+/**********langage************/
+#langage{
+  background-image: radial-gradient(300px circle at 73% 60%, rgba(25, 25, 112, .8), rgba(25, 25, 112, 0)),
+  radial-gradient(280px circle at 52% 70%, rgba(48, 48, 128, .95), rgba(48, 48, 128, 0)),
+  radial-gradient(421px circle at 82% 82%, rgba(240, 240, 240, .95), rgba(240, 240, 240, 0)),
+  radial-gradient(450px circle at 42% 65%, rgba(106, 0, 92, 1), rgba(106, 0, 92, 0)),
+  radial-gradient(480px circle at 40% 75%, rgba(106, 0, 92, 1), rgba(106, 0, 92, 0)),
+  radial-gradient(480px circle at 38% 95%, rgba(106, 0, 92, 1), rgba(106, 0, 92, 0)),
+  radial-gradient(435px circle at 65% 73%, rgba(221, 156, 119, 1), rgba(221, 156, 119, 0)),
+  radial-gradient(850px circle at right top, rgba(75, 0, 53, 1), rgba(75, 0, 53, .9), rgba(169, 64, 97, .4), rgba(169, 64, 97, 0)),
+  radial-gradient(422px circle at right 75%, rgba(0, 56, 79, .95), rgba(0, 56, 79, 0)),
+  radial-gradient(350px circle at right 50%, rgba(153, 56, 60, 1), rgba(153, 56, 60, 0)),
+  radial-gradient(300px circle at right bottom, rgba(120, 56, 128, 1),  rgba(120, 56, 128, 0)),
+  linear-gradient(to right bottom, rgba(18, 0, 25, 0), rgba(18, 0, 25, 0.95) 40%, rgba(18, 0, 25, 0.5) 60%, rgba(18, 0, 25, 0)),
+  linear-gradient(to right, #1c062d, #b8205d);
+  padding: 10px 0px 100px 0px;
+}
+
+.lg {
+  margin-top: -10px;
+  color: rgb(240, 240, 240);
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0%;
+}
+.hex-layer-6 {
+  display: grid;
+  grid-template-columns: repeat(6, 0fr);
+  margin: -18px 0px;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.hex {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+  height: 120px;
+  width: 120px;
+  align-self: center;
+  -webkit-clip-path: polygon(
+    50% 0%,
+    95% 25%,
+    95% 75%,
+    50% 100%,
+    5% 75%,
+    5% 25%
+  );
+}
+
+.hex:hover {
+  background: rgba(110, 162, 213, 0.2);
+  backdrop-filter: blur(5px);
+  transition: 0.8s;
+}
+.test {
+  object-fit:cover;
+  object-position:center;
+  height:70%;
+  margin-top:25px
+}
+.test1 {
+  object-fit:cover;
+  object-position:center;
+  height:68%;
+  margin-top:17px
+}
+.test2 {
+  object-fit:cover;
+  object-position:center;
+  height:50%;
+  margin-top:30px
+}
+
+
+/* ********Réalisation******** */
+#Travaux{
+  height: 700px;
+  background-color: rgb(119, 115, 115);
+padding: 1px 2%;
+}
+#Travaux h2{
+  padding-top: 60px;
+}
+
+#Scolaire{
+background: url(/img/th-192308266.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 50%;
+}
+#personel{
+  
+background: url(/img/Travaux-3014491818.jpeg);
+background-repeat:no-repeat;
+background-size: contain;
+background-position: 50%;
+background-color: white;
+}
+
+#Travaux li{
+  margin: 65px 100px 0 100px;
+  height: 226px;;
+  width: 55%;
+  max-width: 550px;
+  float: left;
+  box-shadow: 17px 17px 18px 3px rgba(0,0,0,0.65);
+  border-radius: 5px;
+}
+#Travaux p{ 
+  height: 45px;
+  width: 235px;
+  float: right;
+  margin: 50px -180px 0 0;
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 15px;
+  background: rgba(160, 160, 165, 0.4);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.692);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(160, 160, 165, 0.3);
+}
+
+#Travaux p:hover{
+  transform :scale(1.05);
+  transition: 0.8s ease-in-out;
+}
+
+
+
+/**********footer********/
+footer{
+  background-image: radial-gradient(300px circle at 73% 60%, rgba(25, 25, 112, .8), rgba(25, 25, 112, 0)),
+  radial-gradient(280px circle at 52% 70%, rgba(48, 48, 128, .95), rgba(48, 48, 128, 0)),
+  radial-gradient(421px circle at 82% 82%, rgba(240, 240, 240, .95), rgba(240, 240, 240, 0)),
+  radial-gradient(450px circle at 42% 65%, rgba(106, 0, 92, 1), rgba(106, 0, 92, 0)),
+  radial-gradient(480px circle at 40% 75%, rgba(106, 0, 92, 1), rgba(106, 0, 92, 0)),
+  radial-gradient(480px circle at 38% 95%, rgba(106, 0, 92, 1), rgba(106, 0, 92, 0)),
+  radial-gradient(435px circle at 65% 73%, rgba(221, 156, 119, 1), rgba(221, 156, 119, 0)),
+  radial-gradient(850px circle at right top, rgba(75, 0, 53, 1), rgba(75, 0, 53, .9), rgba(169, 64, 97, .4), rgba(169, 64, 97, 0)),
+  radial-gradient(422px circle at right 75%, rgba(0, 56, 79, .95), rgba(0, 56, 79, 0)),
+  radial-gradient(350px circle at right 50%, rgba(153, 56, 60, 1), rgba(153, 56, 60, 0)),
+  radial-gradient(300px circle at right bottom, rgba(120, 56, 128, 1),  rgba(120, 56, 128, 0)),
+  linear-gradient(to right bottom, rgba(18, 0, 25, 0), rgba(18, 0, 25, 0.95) 40%, rgba(18, 0, 25, 0.5) 60%, rgba(18, 0, 25, 0)),
+  linear-gradient(to right, #1c062d, #b8205d);;
+}
+
+#copyrighticons{
+  text-align: center;
+}
+
+
+

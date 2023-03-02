@@ -1,0 +1,122 @@
+/****** page cv *******/
+/* on garde la forme générale mais on inclu le cv */
+body{
+    font-family: sans-serif;
+    padding: 0; 
+    margin: 0;
+    background-color: rgb(240, 240, 240);
+}
+ul{padding: 0;
+margin: 0;
+}
+li{
+    list-style-type: none;
+}
+h2{text-transform: uppercase;
+text-align: center;
+padding-top: 30px;
+font-size: 2em;
+}
+
+a{text-decoration: none;
+color: black;
+}
+/* ******************NAVBAR**************** */
+nav{
+  z-index: 1;
+  overflow: hidden;
+  background-image:radial-gradient(300px circle at 73% 60%, rgba(25, 25, 112, .8), rgba(25, 25, 112, 0)),
+  radial-gradient(280px circle at 52% 70%, rgba(48, 48, 128, .95), rgba(48, 48, 128, 0)),
+  radial-gradient(421px circle at 82% 82%, rgba(240, 240, 240, .95), rgba(240, 240, 240, 0)),
+  radial-gradient(450px circle at 42% 65%, rgba(106, 0, 92, 1), rgba(106, 0, 92, 0)),
+  radial-gradient(480px circle at 40% 75%, rgba(106, 0, 92, 1), rgba(106, 0, 92, 0)),
+  radial-gradient(480px circle at 38% 95%, rgba(106, 0, 92, 1), rgba(106, 0, 92, 0)),
+  radial-gradient(435px circle at 65% 73%, rgba(221, 156, 119, 1), rgba(221, 156, 119, 0)),
+  radial-gradient(850px circle at right top, rgba(75, 0, 53, 1), rgba(75, 0, 53, .9), rgba(169, 64, 97, .4), rgba(169, 64, 97, 0)),
+  radial-gradient(422px circle at right 75%, rgba(0, 56, 79, .95), rgba(0, 56, 79, 0)),
+  radial-gradient(350px circle at right 50%, rgba(153, 56, 60, 1), rgba(153, 56, 60, 0)),
+  radial-gradient(300px circle at right bottom, rgba(120, 56, 128, 1),  rgba(120, 56, 128, 0)),
+  linear-gradient(to right bottom, rgba(18, 0, 25, 0), rgba(18, 0, 25, 0.95) 40%, rgba(18, 0, 25, 0.5) 60%, rgba(18, 0, 25, 0)),
+  linear-gradient(to right, #1c062d, #b8205d); ;
+  position: fixed;
+  width: 100%;
+  opacity: 0.9;
+}
+
+header li{
+  float: right;
+  font-size: 1,2em;
+}
+header li a {
+  text-decoration: none;
+display: block;
+text-align: center;
+padding: 18px 12px;
+
+}
+
+header li p {
+  margin-left: 1rem;
+}
+#logo{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  float: left;
+  color: rgb(240, 240, 240);
+  box-shadow: 10px;
+}
+
+#Menu{
+  color:  rgb(240, 240, 240);
+}
+
+/* *****************image principale************* */
+
+#imagePrincipale {
+    padding-top: 60px;
+    background: url(/img/516089.png) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 799px;
+  }
+  h1{
+    font-family: 'sans-serif';
+    text-align: center;
+    color:rgb(240, 240, 240);
+    font-size: 6em;
+    margin-top: 110px;
+    text-shadow: 1px 3px 2px black;
+  }
+  #premierTrait {
+    height: 1px;
+    width: 50%;
+    margin: -3px auto;
+    background-color:rgb(240, 240, 240);
+    box-shadow: 1px 3px 2px black;
+  }
+  h3{
+    text-align: center;
+    color:rgb(240, 240, 240);
+    font-size: 3em;
+    font-family: sans-serif;
+    text-shadow: 1px 3px 2px black;
+  }
+  footer{
+    background-image: radial-gradient(300px circle at 73% 60%, rgba(25, 25, 112, .8), rgba(25, 25, 112, 0)),
+    radial-gradient(280px circle at 52% 70%, rgba(48, 48, 128, .95), rgba(48, 48, 128, 0)),
+    radial-gradient(421px circle at 82% 82%, rgba(240, 240, 240, .95), rgba(240, 240, 240, 0)),
+    radial-gradient(450px circle at 42% 65%, rgba(106, 0, 92, 1), rgba(106, 0, 92, 0)),
+    radial-gradient(480px circle at 40% 75%, rgba(106, 0, 92, 1), rgba(106, 0, 92, 0)),
+    radial-gradient(480px circle at 38% 95%, rgba(106, 0, 92, 1), rgba(106, 0, 92, 0)),
+    radial-gradient(435px circle at 65% 73%, rgba(221, 156, 119, 1), rgba(221, 156, 119, 0)),
+    radial-gradient(850px circle at right top, rgba(75, 0, 53, 1), rgba(75, 0, 53, .9), rgba(169, 64, 97, .4), rgba(169, 64, 97, 0)),
+    radial-gradient(422px circle at right 75%, rgba(0, 56, 79, .95), rgba(0, 56, 79, 0)),
+    radial-gradient(350px circle at right 50%, rgba(153, 56, 60, 1), rgba(153, 56, 60, 0)),
+    radial-gradient(300px circle at right bottom, rgba(120, 56, 128, 1),  rgba(120, 56, 128, 0)),
+    linear-gradient(to right bottom, rgba(18, 0, 25, 0), rgba(18, 0, 25, 0.95) 40%, rgba(18, 0, 25, 0.5) 60%, rgba(18, 0, 25, 0)),
+    linear-gradient(to right, #1c062d, #b8205d);;
+  }
+  
+  #copyrighticons{
+    text-align: center;
+  }
+  
